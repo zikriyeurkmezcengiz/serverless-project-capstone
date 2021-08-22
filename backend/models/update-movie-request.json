@@ -1,0 +1,20 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "group",
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "minLength": 5
+      },
+      "director": {
+        "type": "string",
+        "minLength": 5
+      },
+      "watched": {
+        "type": "boolean"
+      }
+    },
+    "required": ["name", "director"],
+    "additionalProperties": false
+  }
